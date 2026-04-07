@@ -15,5 +15,12 @@ An automated educational content pipeline built for the Zeklavya AI Developer As
 ## 🚀 Setup Instructions
 1. Clone the repository.
 2. Install dependencies:
-   ```bash
    pip install -r requirements.txt
+3. Create a .env file in the root directory and add your API key:
+   GEMINI_API_KEY=your_api_key_here
+4. Run the application:
+   streamlit run app.py
+## 📋 FeaturesStructured JSON Communication:
+    All agents communicate using deterministic JSON schemas.
+    Dynamic UI: Real-time display of the agent pipeline, making the "thought process" and feedback loop visible.
+   
